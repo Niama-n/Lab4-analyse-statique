@@ -72,7 +72,7 @@ En parallèle, l'outil **JADX** offre une vue plus complète incluant le fichier
 Avant même d'entrer dans le code Java, une bonne pratique est d'inspecter les ressources statiques (fichiers `res/values/strings.xml`, etc.) et d'exécuter l'utilitaire `strings` sur le binaire brut pour trouver des données en clair.
 
 ![5.png](test/5.png)
-![6.png](test/6.png)
+![8.png](test/8.png)
 
 Cette étape révèle plusieurs éléments suspects :
 - Une longue chaîne encodée en **Base64**
@@ -158,7 +158,7 @@ En exécutant le script :
 python dec.py
 ```
 
-![7.png](test/7.png)
+![6.png](test/6.png)
 
 Le secret est affiché en clair. En le saisissant dans l'interface de l'application, le message de succès s'affiche.
 
